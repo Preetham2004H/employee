@@ -1,0 +1,103 @@
+
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: brown; /* Label color */
+  }
+  
+  input[type="text"] {
+    display: block;
+    width: 30%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid peach; /* Input border color */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-color: brown; 
+  }
+  
+  
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: maroon;
+}
+form, table {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid maroon;
+}
+/* static.css */
+
+nav {
+    background-color: #8B4513; /* Brown color */
+    color: #000; /* Black color */
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000; /* Black color */
+    font-weight: bold;
+  }
+  
+/* Add styles for Add Employee button */
+form input[type="submit"] {
+    background-color: maroon;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Style the Delete button */
+form button[type="submit"] {
+    background-color: #906e72;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Style the Search button */
+#search-content input[type="submit"] {
+    background-color: rgb(121, 65, 65);
+    color: #fff;
+    cursor: pointer;
+}
+
+body {
+     /* nude shade of red */
+    color: #4d0000; /* maroon */
+  }
+  
+  .section {
+    background-color: peach;
+    width: 60%;
+    margin: 0 auto; /* Center the section */
+    padding: 20px;
+    color: #d6a2a2; /* Text color */
+  }
+  
